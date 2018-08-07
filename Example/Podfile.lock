@@ -1,0 +1,16 @@
+PODS:
+  - GLFrameRate (0.1.0)
+
+DEPENDENCIES:
+  - GLFrameRate (from `../`)
+
+EXTERNAL SOURCES:
+  GLFrameRate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GLFrameRate: 0d184a8bb6eb93ba2a5fe3230bceb1c9b9f327f6
+
+PODFILE CHECKSUM: fab387e88a85658b423964d90226a160c01db42b
+
+COCOAPODS: 1.5.3

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1462718D8BB39A1A80CA8611 /* Pods_GLFrameRate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9C6EEFAD8D45545DF5E4BE /* Pods_GLFrameRate_Example.framework */; };
-		4F7A541EFDDCE09670D31825 /* Pods_GLFrameRate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71436A6FD29A9B2D842120B6 /* Pods_GLFrameRate_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		CF22432BAC3A4B7B5D418F50 /* libPods-GLFrameRate_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7435EAC20D42CF699C3918 /* libPods-GLFrameRate_Example.a */; };
+		FFBD1BCB1B985B170A34B36F /* libPods-GLFrameRate_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F0C30B7C640B72380AC111 /* libPods-GLFrameRate_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07F0C30B7C640B72380AC111 /* libPods-GLFrameRate_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GLFrameRate_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2AA29216CED540EBF87F07 /* Pods-GLFrameRate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLFrameRate_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GLFrameRate_Tests/Pods-GLFrameRate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2C9C6EEFAD8D45545DF5E4BE /* Pods_GLFrameRate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLFrameRate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36ED97A1F47D5744675DDEC1 /* Pods-GLFrameRate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLFrameRate_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GLFrameRate_Example/Pods-GLFrameRate_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GLFrameRate_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLFrameRate_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,13 +59,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		71436A6FD29A9B2D842120B6 /* Pods_GLFrameRate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLFrameRate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F7435EAC20D42CF699C3918 /* libPods-GLFrameRate_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GLFrameRate_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BFBCE4D3E1397EF1FEE4C00 /* Pods-GLFrameRate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLFrameRate_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GLFrameRate_Example/Pods-GLFrameRate_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		953DA848311C39285DDE84AB /* GLFrameRate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GLFrameRate.podspec; path = ../GLFrameRate.podspec; sourceTree = "<group>"; };
-		AE2787049E64026F8BBD6262 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EE7DFD75C05E69D5FDDE6768 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		953DA848311C39285DDE84AB /* GLFrameRate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GLFrameRate.podspec; path = ../GLFrameRate.podspec; sourceTree = "<group>"; };
+		AE2787049E64026F8BBD6262 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EE7DFD75C05E69D5FDDE6768 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FA73FEA506D99E25A99A32FD /* Pods-GLFrameRate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLFrameRate_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GLFrameRate_Tests/Pods-GLFrameRate_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				1462718D8BB39A1A80CA8611 /* Pods_GLFrameRate_Example.framework in Frameworks */,
+				CF22432BAC3A4B7B5D418F50 /* libPods-GLFrameRate_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				4F7A541EFDDCE09670D31825 /* Pods_GLFrameRate_Tests.framework in Frameworks */,
+				FFBD1BCB1B985B170A34B36F /* libPods-GLFrameRate_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				2C9C6EEFAD8D45545DF5E4BE /* Pods_GLFrameRate_Example.framework */,
-				71436A6FD29A9B2D842120B6 /* Pods_GLFrameRate_Tests.framework */,
+				6F7435EAC20D42CF699C3918 /* libPods-GLFrameRate_Example.a */,
+				07F0C30B7C640B72380AC111 /* libPods-GLFrameRate_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				32F5900A2AF4249CC54A8511 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = liguoliang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -294,24 +296,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32F5900A2AF4249CC54A8511 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GLFrameRate_Example/Pods-GLFrameRate_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GLFrameRate/GLFrameRate.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GLFrameRate.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GLFrameRate_Example/Pods-GLFrameRate_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6743F4D0B4742A28FFC6AAA8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -485,12 +469,15 @@
 			baseConfigurationReference = 36ED97A1F47D5744675DDEC1 /* Pods-GLFrameRate_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GLFrameRate/GLFrameRate-Prefix.pch";
 				INFOPLIST_FILE = "GLFrameRate/GLFrameRate-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -500,12 +487,15 @@
 			baseConfigurationReference = 7BFBCE4D3E1397EF1FEE4C00 /* Pods-GLFrameRate_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GLFrameRate/GLFrameRate-Prefix.pch";
 				INFOPLIST_FILE = "GLFrameRate/GLFrameRate-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

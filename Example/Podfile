@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GLFrameRate_Example' do
+  pod 'GLFrameRate', :path => '../'
+
+  target 'GLFrameRate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

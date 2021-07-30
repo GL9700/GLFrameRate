@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GLFrameRate'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A Frame Rate'
 
 # This description is used to generate tags and improve search results.
@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = "A Frame Rate."
 
-  s.homepage         = 'https://github.com/liguoliang/GLFrameRate'
+  s.homepage         = 'https://gitee.com/GL9700/GLFrameRate'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liguoliang' => '36617161@qq.com' }
-  s.source           = { :git => 'https://github.com/liguoliang/GLFrameRate.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://gitee.com/GL9700/GLFrameRate.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
